@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+
+  <teiHeader>
+    <fileDesc>
+
+      <titleStmt>
+        <title>Neural Machine Translation Methods for Translating Text to Sign Language Glosses</title>
+
+        <author>
+          <persName>
+            <forename>Dele</forename>
+            <surname>Zhu</surname>
+          </persName>
+        </author>
+
+        <author>
+          <persName>
+            <forename>Vera</forename>
+            <surname>Czehmann</surname>
+          </persName>
+        </author>
+
+        <author>
+          <persName>
+            <forename>Eleftherios</forename>
+            <surname>Avramidis</surname>
+          </persName>
+        </author>
+
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Myriam BEN HADJ SGHAIER</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher>Association for Computational Linguistics</publisher>
+        <pubPlace>Toronto, Canada</pubPlace>
+        <date when="2023">2023</date>
+        <biblScope unit="pp">12523–12541</biblScope>
+      </publicationStmt>
+
+      <sourceDesc>
+        <p>
+          Article published in the
+          <title>Proceedings of the 61st Annual Meeting of the
+          Association for Computational Linguistics (ACL 2023)</title>.
+        </p>
+        <p>
+          ACL Anthology identifier:
+          <idno type="aclanthology">2023.acl-long.700</idno>
+        </p>
+        <p>
+          DOI:
+          <idno type="DOI">10.18653/v1/2023.acl-long.700</idno>
+        </p>
+        <p>
+          URL:
+          <ref target="https://aclanthology.org/2023.acl-long.700/">
+            https://aclanthology.org/2023.acl-long.700/
+          </ref>
+        </p>
+        <p>
+          Year of publication:
+          <date when="2023">2023</date>
+        </p>
+        <p>Award: Outstanding Paper Award</p>
+        <p>Language: English</p>
+      </sourceDesc>
+
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          This TEI encoding was carried out by Myriam BEN HADJ SGHAIER,
+          a first-year Master’s student in Natural Language Processing at INALCO,
+          as part of the course Multilingual Corpora, taught by
+          <persName>
+            <forename>Maud</forename>
+            <surname>Bénard</surname>
+          </persName>
+          professor and course coordinator, affiliated with the
+          <orgName>Institut National des Langues et Civilisations Orientales</orgName>
+        </p>
+        <p>
+          The work was carried out for pedagogical purposes, in order to become
+          familiar with the TEI encoding of scientific texts and metadata,
+          and to apply the notions presented during the course.
+        </p>
+        <p>
+          The article has not been modified and was encoded only for academic
+          learning and evaluation purposes.
+        </p>
+      </projectDesc>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+
+  </teiHeader>
+
+  <text>
+    <front>
+
+      <abstract>
+        <p>
+          State-of-the-art techniques common to low resource machine translation are applied to improve
+          machine translation of spoken language text to sign language glosses. In our experiments, we
+          improve the performance of transformer-based models via (1) data augmentation, (2) semi-supervised
+          neural machine translation, (3) transfer learning and (4) multilingual neural machine translation.
+          The proposed methods are implemented progressively on two German sign language corpora containing
+          gloss annotations. Multilingual neural machine translation combined with data augmentation appears
+          to be the most successful setting, yielding statistically significant improvements as measured by
+          three automatic metrics (up to over 6 BLEU points), and confirmed via human evaluation. Our best
+          setting outperforms all previous work that report on the same test set and is also confirmed on a
+          corpus of American Sign Language.
+        </p>
+      </abstract>
+
+      <div type="toc" xml:lang="en">
+        <head>Plan</head>
+        <list>
+          <item>1. Introduction</item>
+          <item>2. Related work</item>
+          <item>3. Methods</item>
+          <item>3.1. Data augmentation</item>
+          <item>3.2. Semi-supervised NMT</item>
+          <item>3.4. Multilingual NMT</item>
+          <item>3.5. Evaluation</item>
+          <item>4.1. Datasets</item>
+          <item>4.2. Data preprocessing</item>
+          <item>4.5. Effect of monolingual dataset</item>
+          <item>4.5.1. Data augmentation</item>
+          <item>4.5.2. Semi-supervised NMT</item>
+          <item>4.6. Effect of bilingual dataset</item>
+          <item>4.6.1. Transfer learning</item>
+          <item>4.6.2. Multilingual NMT</item>
+          <item>4.7. Effect of combining methods</item>
+        </list>
+      </div>
+
+    </front>
+  </text>
+
+</TEI>

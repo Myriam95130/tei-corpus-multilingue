@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+
+  <teiHeader>
+    <fileDesc>
+
+      <titleStmt>
+        <title>
+          La traduction automatique comme outil d’aide à la rédaction
+          scientifique en anglais langue seconde : résultats d’une étude
+          exploratoire sur la qualité linguistique
+        </title>
+
+        <author>
+          <persName>
+            <forename>Marie-Josée</forename>
+            <surname>Goulet</surname>
+          </persName>
+        </author>
+
+        <author>
+          <persName>
+            <forename>Michel</forename>
+            <surname>Simard</surname>
+          </persName>
+        </author>
+
+        <author>
+          <persName>
+            <forename>Carla</forename>
+            <surname>Parra Escartín</surname>
+          </persName>
+        </author>
+
+        <author>
+          <persName>
+            <forename>Sharon</forename>
+            <surname>O’Brien</surname>
+          </persName>
+        </author>
+
+        <respStmt>
+          <resp>Encodage TEI</resp>
+          <name>Myriam BEN HADJ SGHAIER</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher>ASp (la revue du GERAS)</publisher>
+        <date when="2017">2017</date>
+        <biblScope unit="issue">72</biblScope>
+        <biblScope unit="pp">5–28</biblScope>
+      </publicationStmt>
+
+      <sourceDesc>
+        <p>
+          Article publié dans la revue <title>ASp</title>,
+          numéro 72, année <date when="2017">2017</date>.
+        </p>
+        <p>
+          DOI :
+          <idno type="DOI">10.4000/asp.5045</idno>
+        </p>
+        <p>
+          URL :
+          <ref target="https://journals.openedition.org/asp/5045">
+            https://journals.openedition.org/asp/5045
+          </ref>
+        </p>
+        <p>
+          Mise en ligne le
+          <date when="2018-11-01">1 novembre 2018</date>.
+        </p>
+        <p>Langue de l’article : français</p>
+      </sourceDesc>
+
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          Cet encodage TEI a été réalisé par Myriam BEN HADJ SGHAIER,
+          étudiante en Master 1 Traitement Automatique des Langues (TAL) à l’INALCO,
+          dans le cadre du cours de Corpus multilingue,
+          enseigné par
+          <persName>
+            <forename>Maud</forename>
+            <surname>Bénard</surname>
+          </persName>
+          professeure et responsable de l’enseignement,
+          affiliée à l’
+          <orgName>Institut National des Langues et Civilisations Orientales</orgName>
+        </p>
+        <p>
+          Le travail a été mené dans un objectif pédagogique, afin de se
+          familiariser avec l’encodage de textes scientifiques et de métadonnées
+          selon les recommandations de la Text Encoding Initiative (TEI).
+        </p>
+        <p>
+          L’article n’a fait l’objet d’aucune modification du contenu scientifique
+          original et a uniquement été encodé à des fins d’apprentissage et
+          d’évaluation académique.
+        </p>
+        <p>
+          Ce travail constitue un rendu pour la matière Corpus multilingue
+          et s’inscrit dans le cadre d’une évaluation du premier semestre
+          du Master 1 TAL.
+        </p>
+      </projectDesc>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="fr">Français</language>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+
+  </teiHeader>
+
+  <text>
+    <front>
+
+      <abstract xml:lang="fr">
+        <p>
+          Nous explorons dans cet article la pertinence d’utiliser la traduction automatique (TA)
+          comme outil d’aide à la rédaction scientifique en anglais langue seconde (ALS).
+          L’expérience, à laquelle ont participé dix chercheurs, comprenait deux tâches :
+          la rédaction d’un texte en ALS et la rédaction d’un texte en langue maternelle.
+          Ce dernier a ensuite été traduit automatiquement et post-édité par le participant.
+          Par la suite, nous avons évalué la qualité linguistique des textes produits dans les deux situations,
+          à partir d’une analyse des modifications linguistiques effectuées par une réviseure professionnelle.
+          Selon nos résultats, la qualité linguistique des textes est sensiblement la même dans les deux situations,
+          tandis que des différences apparaissent dans les dimensions linguistiques et dans les types d’unités touchées.
+          L’article se termine par une réflexion sur les facteurs pouvant influencer ces résultats.
+          Nous concluons en réitérant la pertinence d’étudier l’utilisation de la TA pour la rédaction d’articles
+          en anglais de spécialité.
+        </p>
+      </abstract>
+
+      <abstract xml:lang="en" type="translated">
+        <p>
+          In this paper, we investigate the use of machine translation (MT) as an aid for writing academic texts
+          in English as a second language (ESL). We report on an experiment, which involved ten researchers and included
+          two tasks: writing a text in ESL and writing a text in the mother tongue. The second text was subsequently
+          machine translated and post-edited by each participant. We then analysed the types of edits made by a professional
+          reviser and used our analysis to evaluate the linguistic quality of the texts produced in both conditions.
+          According to our results, the linguistic quality of the texts is equivalent in both conditions, whereas some
+          differences appear in the linguistic dimensions and in the types of units affected by the edits. The article ends
+          with a reflection on the factors that could have influenced the results. We conclude by reaffirming the relevance
+          of studying the use of MT in writing in English for specific purposes.
+        </p>
+      </abstract>
+
+      <div type="toc" xml:lang="fr">
+        <head>Plan</head>
+        <list>
+          <item>1. Introduction</item>
+          <item>2. État de la question et problématique</item>
+          <item>3. Méthodologie</item>
+          <item>3.1. Recrutement des participants</item>
+          <item>3.2. Rédaction des résumés</item>
+          <item>3.3. Traduction, post-édition et révision des résumés</item>
+          <item>3.4. Annotation des modifications linguistiques</item>
+          <item>4. Résultats de l'analyse des modifications linguistiques</item>
+          <item>5. Conclusion</item>
+        </list>
+      </div>
+
+    </front>
+  </text>
+
+</TEI>
